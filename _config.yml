@@ -1,0 +1,27 @@
+title: Hello Security LLC
+description: Say Hello to Your Expert Cybersecurity Team
+theme: minimal-mistakes-jekyll
+baseurl: ""
+url: "https://github.com/OfficialAdamRivers/hello-security-llc.github.io"
+logo: "/assets/images/logo.png"
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+header:
+  overlay_image: /assets/images/header-bg.jpg
+  overlay_filter: 0.5
+  caption: "Say Hello to Your Expert Cybersecurity Team"
+  actions:
+    - label: "Learn More"
+      url: "/about/"
